@@ -14,7 +14,7 @@
 void makeArraysForHadler(char*** pointsToReadCount,char*** offsets, int numOfWorkers, int inFileSize);
 void finalCleanUp(char** fileName, char** tempDirName, char*** offsets, char*** pointsToReadCount, char** command, int arrayLength);
 
-/*This is the code for shapes master*/
+/*This is the code for shapes master, calls handler and gnuplot*/
 int main(int argc, char const *argv[])
 {
 	/*Going to check we have enough command line arguments to start*/
